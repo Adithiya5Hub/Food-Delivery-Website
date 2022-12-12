@@ -5,10 +5,10 @@
 html{
     scroll-behavior: smooth;
 }
-
 :root{
     --navbar-height: 59px;
 }
+
 /* NavBar */
 #navbar{
     display: flex;
@@ -16,22 +16,10 @@ html{
     position: sticky;
     top: 0;
 }
-/* Logo and Image */
-#logo{
-    height: 80px;
-    margin: 10px 34px;
-
-}
-#logo img{
-    border-radius: 10%;
-    padding-top: 1px ;
-    
-}
 #navbar ul{
     display: flex;
 }
 #navbar ul li{
-
     list-style-type: none;
     font-size: 1.4rem;
 }
@@ -46,7 +34,6 @@ html{
     top: 0px;
     left: 0px;
 }
-
 #navbar ul li a{
     color: white;
     display: block;
@@ -56,9 +43,19 @@ html{
 }
 #navbar ul li a:hover{
     color: black;
-    background-color: white;
-   
+    background-color: white;   
 }
+
+/* Logo and Image */
+#logo{
+    height: 80px;
+    margin: 10px 34px;
+}
+#logo img{
+    border-radius: 10%;
+    padding-top: 1px ;   
+}
+
 /* Home Section */
 #home{
     display: flex;
@@ -68,7 +65,6 @@ html{
     justify-content: center;
     align-items: center;
 }
-
 #home::before{
     content: "";
     background-color: black;
@@ -85,19 +81,17 @@ html{
     color: white;
     text-align: center;
 }
-
 #home p{
     color: white;
     text-align: center;
     font-size: 1.5rem;
 }
+
 /* Services Section */
 #services{
     margin: 34px;
 display: flex;
 }
-
-
 #services .box{
     border: 2px solid brown;
     padding: 34px;
@@ -105,20 +99,16 @@ display: flex;
     background: #f2f2f2;
     border-radius: 28px;
 }
-
 #services .box img{
     width: 180px;
     display: block;
     margin: auto;
     border-radius: 20px;
-    
 }
-
 
 /* Clients Section */
 #client-section{
-    position: relative;
-    
+    position: relative;    
 }
 #clients::before{
     content: "";
@@ -129,8 +119,7 @@ display: flex;
     z-index: -1;
     opacity: 0.4;
     margin-top: 96px;
-    margin-bottom: 133px;
-    
+    margin-bottom: 133px;   
 }
 #clients img{
     height: 100px;
@@ -141,9 +130,9 @@ display: flex;
     align-items: center;
 }
 .client-item{
-    padding: 34px;
-    
+    padding: 34px;  
 }
+
 /* Contacts Section */
 #contact{
     position: revert;
@@ -161,8 +150,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 34px;
-    
+    padding-bottom: 34px;  
 }
 #contact-box input,
 #contact-box textarea{
@@ -176,8 +164,9 @@ display: flex;
 }
 #contact-box label{
     font-size: 1.3rem;
-
 }
+
+/* Footer Section */
 footer{
     background: black;
     color: white;
@@ -193,7 +182,6 @@ footer{
     font-size: 2.3rem;
     padding: 12px;
 }
-
 .btn{
     padding: 6px 20px;
     border: 2px solid white;
