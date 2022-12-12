@@ -9,7 +9,7 @@
     
 }
 
-/* Jome Section */
+/* Home Section */
 #home{
 height: 370px;
 padding: 3px 28px;
@@ -23,7 +23,6 @@ height: 480px;
 font-size: 14px;
 }
 
-
 /* Services Section */
 
 #services{
@@ -34,7 +33,6 @@ flex-direction: column;
     padding: 14px;
     margin: 2px 0px;
     margin-bottom: 20px;
-
 }
 
 /* Clients Section */
@@ -45,8 +43,6 @@ flex-direction: column;
     width: 66px;
     padding: 6px;
     height: auto;
-    
-
 }
 
 /* Contact Us */
@@ -54,11 +50,7 @@ flex-direction: column;
     width: 80%;
 }
 
-
-/* Footer */
-
 /* Utility Classes */
-
 .h-primary{
     font-size: 26px;
 }
